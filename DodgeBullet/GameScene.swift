@@ -32,6 +32,8 @@ class GameScene: SKScene {
         sprite.runAction(SKAction.repeatActionForever(action))
         
         self.addChild(sprite)
+        
+        //A test
     }
     
     override func update(currentTime: CFTimeInterval) {
